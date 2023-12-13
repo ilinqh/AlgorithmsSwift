@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3E3DC3932B2997C9009908FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DC3922B2997C9009908FD /* main.swift */; };
 		3E3DC39B2B2997E7009908FD /* _2697LexicographicallySmallestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DC39A2B2997E7009908FD /* _2697LexicographicallySmallestPalindrome.swift */; };
+		3E3DC39D2B29A1AC009908FD /* _1TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DC39C2B29A1AC009908FD /* _1TwoSum.swift */; };
+		3E3DC3A12B29B020009908FD /* _2AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DC3A02B29B020009908FD /* _2AddTwoNumbers.swift */; };
+		3E3DC3A32B29B080009908FD /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DC3A22B29B080009908FD /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		3E3DC38F2B2997C9009908FD /* AlgorithmsSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmsSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3DC3922B2997C9009908FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3E3DC39A2B2997E7009908FD /* _2697LexicographicallySmallestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2697LexicographicallySmallestPalindrome.swift; sourceTree = "<group>"; };
+		3E3DC39C2B29A1AC009908FD /* _1TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1TwoSum.swift; sourceTree = "<group>"; };
+		3E3DC3A02B29B020009908FD /* _2AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2AddTwoNumbers.swift; sourceTree = "<group>"; };
+		3E3DC3A22B29B080009908FD /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +65,10 @@
 		3E3DC3912B2997C9009908FD /* AlgorithmsSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3E3DC39E2B29AFF8009908FD /* medium */,
 				3E3DC3992B2997D3009908FD /* easy */,
 				3E3DC3922B2997C9009908FD /* main.swift */,
+				3E3DC3A22B29B080009908FD /* ListNode.swift */,
 			);
 			path = AlgorithmsSwift;
 			sourceTree = "<group>";
@@ -69,8 +77,17 @@
 			isa = PBXGroup;
 			children = (
 				3E3DC39A2B2997E7009908FD /* _2697LexicographicallySmallestPalindrome.swift */,
+				3E3DC39C2B29A1AC009908FD /* _1TwoSum.swift */,
 			);
 			path = easy;
+			sourceTree = "<group>";
+		};
+		3E3DC39E2B29AFF8009908FD /* medium */ = {
+			isa = PBXGroup;
+			children = (
+				3E3DC3A02B29B020009908FD /* _2AddTwoNumbers.swift */,
+			);
+			path = medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3DC3A12B29B020009908FD /* _2AddTwoNumbers.swift in Sources */,
+				3E3DC3A32B29B080009908FD /* ListNode.swift in Sources */,
 				3E3DC39B2B2997E7009908FD /* _2697LexicographicallySmallestPalindrome.swift in Sources */,
+				3E3DC39D2B29A1AC009908FD /* _1TwoSum.swift in Sources */,
 				3E3DC3932B2997C9009908FD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

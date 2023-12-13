@@ -7,7 +7,7 @@
 
 import Foundation
 
-let solution = _2697LexicographicallySmallestPalindrome.Solution()
-let result = solution.makeSmallestPalindrome("abcd")
+let solution = _1TwoSum.Solution()
+let result = solution.twoSum([2,7,11,15], 9)
 print(result)
 
