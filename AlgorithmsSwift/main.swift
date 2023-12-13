@@ -7,5 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+let solution = _2697LexicographicallySmallestPalindrome.Solution()
+let result = solution.makeSmallestPalindrome("abcd")
+print(result)
 
