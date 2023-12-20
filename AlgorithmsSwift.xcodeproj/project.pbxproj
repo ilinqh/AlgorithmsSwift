@@ -17,6 +17,7 @@
 		3ECF2FF52B2C31F700B15EF1 /* _2415ReverseOddLevelsOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF2FF42B2C31F700B15EF1 /* _2415ReverseOddLevelsOfBinaryTree.swift */; };
 		3ECF2FF72B2C569C00B15EF1 /* _5LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF2FF62B2C569C00B15EF1 /* _5LongestPalindromicSubstring.swift */; };
 		3ECF2FF92B2FFA2900B15EF1 /* _162FindPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF2FF82B2FFA2900B15EF1 /* _162FindPeakElement.swift */; };
+		3ECF2FFB2B329E3E00B15EF1 /* _2828CheckIfAStringIsAnAcronymOfWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF2FFA2B329E3D00B15EF1 /* _2828CheckIfAStringIsAnAcronymOfWords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		3ECF2FF42B2C31F700B15EF1 /* _2415ReverseOddLevelsOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2415ReverseOddLevelsOfBinaryTree.swift; sourceTree = "<group>"; };
 		3ECF2FF62B2C569C00B15EF1 /* _5LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _5LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 		3ECF2FF82B2FFA2900B15EF1 /* _162FindPeakElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _162FindPeakElement.swift; sourceTree = "<group>"; };
+		3ECF2FFA2B329E3D00B15EF1 /* _2828CheckIfAStringIsAnAcronymOfWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2828CheckIfAStringIsAnAcronymOfWords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				3E3DC39A2B2997E7009908FD /* _2697LexicographicallySmallestPalindrome.swift */,
+				3ECF2FFA2B329E3D00B15EF1 /* _2828CheckIfAStringIsAnAcronymOfWords.swift */,
 				3E3DC39C2B29A1AC009908FD /* _1TwoSum.swift */,
 			);
 			path = easy;
@@ -165,6 +168,7 @@
 			files = (
 				3ECF2FF92B2FFA2900B15EF1 /* _162FindPeakElement.swift in Sources */,
 				3ECF2FF32B2C31A500B15EF1 /* TreeNode.swift in Sources */,
+				3ECF2FFB2B329E3E00B15EF1 /* _2828CheckIfAStringIsAnAcronymOfWords.swift in Sources */,
 				3E3DC3A12B29B020009908FD /* _2AddTwoNumbers.swift in Sources */,
 				3E3DC3A32B29B080009908FD /* ListNode.swift in Sources */,
 				3E3DC39B2B2997E7009908FD /* _2697LexicographicallySmallestPalindrome.swift in Sources */,
