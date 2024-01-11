@@ -7,9 +7,9 @@
 
 import Foundation
 
-let solution = _162FindPeakElement.Solution()
-let result = solution.findPeakElement([1, 2])
-print(result)
+//let solution = _162FindPeakElement.Solution()
+//let result = solution.findPeakElement([1, 2])
+//print(result)
 
 //let s = "fjkdlsjfljalfjldsakjf"
 //for ch in s.enumerated() {
@@ -27,3 +27,9 @@ print(result)
 //for oe in arraySlice.enumerated() {
 //    print(oe.offset, oe.element)
 //}
+
+
+let string = "fjdklsjfdlkjslfj"
+for ch in string {
+    print(ch)
+}
